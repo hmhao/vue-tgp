@@ -3,6 +3,13 @@
 Tgp 是参照 [淘个片](http://tt.kankan.com/m)，使用 Vue 2.0 + vue-router + vuex + fetch  实现的移动端 SSR 项目(自带[mockjs](https://github.com/nuysoft/Mock/wiki)模拟接口)
 > 依照官方 [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0) demo 构建
 
+## 心得
+
+- 使用 Vue.js 结合服务端渲染来开发应用程序，可以复用大部分代码，让程序编写更加高效
+- 服务端渲染解决SEO的问题，利于搜索引擎爬虫抓取
+- 服务端渲染解决单页应用程序首屏白屏时间过长的问题（数据预取同时可以缓存），在用户角度来看，体验更好
+- 服务端渲染结合api代理或者mock模拟数据，解决对后端api服务的耦合和依赖
+
 ## 特性
 
 - 服务端渲染
@@ -31,7 +38,7 @@ Tgp 是参照 [淘个片](http://tt.kankan.com/m)，使用 Vue 2.0 + vue-router 
 - [vue](https://github.com/vuejs/vue) [vue-server-renderer](https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer) [vuex](https://github.com/vuejs/vuex) [vue-router](https://github.com/vuejs/vue-router)
 - [node-fetch](https://github.com/bitinn/node-fetch) [fetch-jsonp](https://github.com/camsong/fetch-jsonp)
 - [mockjs](https://github.com/nuysoft/Mock)
-- [其他](https://github.com/hmhao/vue-tgp/package.json)
+- [其他](https://github.com/hmhao/vue-tgp/blob/master/package.json)
 
 ## 项目建立
 
